@@ -11,6 +11,7 @@ We’re a team of multifaceted minds building tools, apps, and experiments with 
 ## 🔧 What We Do
 
 At BOPPA, we’re focused on:
+
 - 🚀 **MVPs** — Turning ideas into products, fast.
 - 🛠️ **In-house Tools** — Building systems that make building better.
 - 🧪 **Side Projects** — Testing concepts, workflows, and crazy ideas.
@@ -38,6 +39,7 @@ That’s BOPPA. A name, a mindset, a mission.
 ## 📦 Repos
 
 This org hosts:
+
 - Major projects and MVPs
 - Custom-built internal tools
 - Shared experiments and playgrounds
@@ -46,13 +48,14 @@ This org hosts:
 
 ## 🤝 Collaboration
 
-We’re not looking for contributors right now — we’re just keeping our heads down and building.
+We’re not looking for external contributors right now — we’re just keeping our heads down and building.
 
 ---
 
 ## 🌐 Links
 
 https://boppa.net
+
 > _More coming soon._
 
 ---

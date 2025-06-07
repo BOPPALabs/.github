@@ -1,27 +1,28 @@
 # .github
 
-This repository contains default community and configuration files for the **BOPPA** organization.
+This repository contains default community and configuration files for the **BOPPA Labs** organization.
 
 ---
 
 ## 📂 What's in Here?
 
 This repo is used to manage:
+
 - `README.md` (this file)
 - Organization-wide templates:
-  - `/profile/README.md` – README file for the organization page.
-  - `CONTRIBUTING.md` – Contribution guidelines
-  - `CODE_OF_CONDUCT.md` – Behavior expectations
   - `ISSUE_TEMPLATE/` – Custom issue templates
-  - `PULL_REQUEST_TEMPLATE.md` – PR standards
+  - `CONTRIBUTING.md` – Contribution guidelines
+  - `PULL_REQUEST_TEMPLATE.md` – Pull request standards
+  - `/profile/README.md` – README file for the organization page.
 
-These defaults will automatically apply to all repositories under the BOPPA org unless overridden in a specific repo.
+These defaults will automatically apply to all repositories under the BOPPA Labs organization unless overridden in a specific repo.
 
 ---
 
 ## 🧠 About BOPPA
 
 BOPPA is a group of friends and builders working toward:
+
 - Real MVPs
 - Creative experiments
 - Sharpening our craft
@@ -41,4 +42,3 @@ All files in this repo are for internal use across the org.
 
 This repository contains no code and is not subject to a software license.  
 Each project in this org will define its own licensing.
-
