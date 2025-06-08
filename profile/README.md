@@ -60,6 +60,7 @@ We’re not looking for external contributors right now — we’re just keeping
 ## 🌐 Links
 
 https://boppa.net
+
 https://www.figma.com/@boppa
 
 > _More coming soon. Stay tuned..._
