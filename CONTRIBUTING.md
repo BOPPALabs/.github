@@ -12,7 +12,7 @@ This organization is a tight team working on private and internal projects. If y
 
 If you have an idea for a completely new project, improvement, or solution:
 
-1. **Visit our [Project-Proposals](../Project-Proposals) repository**
+1. **Visit our [Project-Proposals](https://github.com/BOPPALabs/Project-Proposals) repository**
 2. **Create a new issue** using the `💭 MVP Proposal` template
 3. **Share your idea** - the rest of the team will help with the technical details!
 
@@ -198,7 +198,7 @@ Use our issue templates to report:
 
 ## 🆘 Getting Help
 
-- **For project ideas**: Create an issue in [Project-Proposals](../Project-Proposals)
+- **For project ideas**: Create an issue in [Project-Proposals](https://github.com/BOPPALabs/Project-Proposals)
 - **For code bugs**: Create an issue in the relevant project repository
 - **For questions**: Ask in PR comments, issue discussions, or team channels
 - **For learning**: Document your process and ask for guidance from the team
