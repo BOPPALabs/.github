@@ -6,11 +6,25 @@ This organization is a tight team working on private and internal projects. If y
 
 ## 💡 Got an Idea? Start Here!
 
-**Everyone can contribute - coding skills not required!** If you have an idea for a new project, improvement, or solution:
+**Everyone can contribute - coding skills not required!**
+
+### For New Project Ideas
+
+If you have an idea for a completely new project, improvement, or solution:
 
 1. **Visit our [Project-Proposals](../Project-Proposals) repository**
 2. **Create a new issue** using the `💭 MVP Proposal` template
-3. **Share your idea** - we'll help with the technical details!
+3. **Share your idea** - the rest of the team will help with the technical details!
+
+### For Existing Projects
+
+If you want to suggest features, improvements, or report bugs for projects that already have their own dedicated repositories:
+
+1. **Navigate to the specific project's repository**
+2. **Create an issue** using the appropriate template:
+   - `✨ Feature Request` for new features
+   - `⚠️ Bug Report` if something isn't working as expected
+3. **Describe your idea or issue** - no coding knowledge needed!
 
 Your business insights, user experience ideas, and problem-solving perspectives are just as valuable as code. Many of our best projects started as non-technical ideas that sparked great technical solutions.
 
