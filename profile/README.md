@@ -55,6 +55,8 @@ This org hosts:
 
 We’re not looking for external contributors right now — we’re just keeping our heads down and building.
 
+**Team members:** Welcome! Please see our [Contributing Guidelines](./CONTRIBUTING.md) for collaboration workflows and standards.
+
 ---
 
 ## 🌐 Links
