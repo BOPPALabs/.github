@@ -12,7 +12,7 @@ This repo is used to manage:
 - Organization-wide templates:
   - `ISSUE_TEMPLATE/` – Custom issue templates
   - `CONTRIBUTING.md` – Contribution guidelines
-  - `PULL_REQUEST_TEMPLATE.md` – Pull request standards
+  - `PULL_REQUEST_TEMPLATE.md` – Pull Request standards
   - `/profile/README.md` – README file for the organization page.
 
 These defaults will automatically apply to all repositories under the BOPPA Labs organization unless overridden in a specific repo.
