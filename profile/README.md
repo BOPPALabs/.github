@@ -8,6 +8,11 @@ We’re a team of multifaceted minds building tools, apps, and experiments with 
 
 ---
 
+<p align="center">
+  <a href="https://www.figma.com/@boppa" target="_blank">
+    <img src="https://img.shields.io/badge/figma-F24E1E?style=flat&logo=figma&logoColor=ffffff" alt="figma" /></a>
+</p>
+
 ## 🔧 What We Do
 
 At BOPPA, we’re focused on:
@@ -55,5 +60,6 @@ We’re not looking for external contributors right now — we’re just keeping
 ## 🌐 Links
 
 https://boppa.net
+https://www.figma.com/@boppa
 
 > _More coming soon. Stay tuned..._
