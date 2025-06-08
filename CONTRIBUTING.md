@@ -2,9 +2,19 @@
 
 BOPPA is not currently accepting external contributions.
 
-This organization is a tight team working on private and internal projects. If you’re part of the team, read below.
+This organization is a tight team working on private and internal projects. If you're part of the team, read below.
 
-## 🚀 Getting Started
+## 💡 Got an Idea? Start Here!
+
+**Everyone can contribute - coding skills not required!** If you have an idea for a new project, improvement, or solution:
+
+1. **Visit our [project-proposals repository](../project-proposals)**
+2. **Create a new issue** using the `💭 MVP Proposal` template
+3. **Share your idea** - we'll help with the technical details!
+
+Your business insights, user experience ideas, and problem-solving perspectives are just as valuable as code. Many of our best projects started as non-technical ideas that sparked great technical solutions.
+
+## 🚀 Getting Started (For Development)
 
 1. **Fork the repository** and create your branch from `main`
 2. **Set up your development environment** following the project's README
@@ -106,14 +116,49 @@ Includes input validation and error handling.
 Closes #23
 ```
 
-## 🐛 Reporting Issues
+## 🐛 Reporting Issues & Ideas
+
+### For Code Issues (in individual project repos)
 
 Use our issue templates to report:
 
-- **Bug Reports** - for problems with existing functionality
-- **Feature Requests** - for new capabilities
-- **MVP Proposals** - for new project ideas
-- **MVP Planning** - for structured project planning after an MVP proposal has been approved
+- **⚠️ Bug Reports** - for problems with existing functionality
+- **✨ Feature Requests** - for new capabilities
+
+### For New Project Ideas (in project-proposals repo)
+
+- **💭 MVP Proposals** - for new project ideas (anyone can contribute!)
+- **📋 MVP Planning** - for detailed planning of approved proposals
+
+## 🎯 Contributing Without Coding
+
+### Business & Strategy
+
+- **Identify problems** worth solving with technology
+- **Research market needs** and user pain points
+- **Propose solutions** using the MVP Proposal template
+- **Provide feedback** on proposed projects and priorities
+
+### User Experience & Design
+
+- **Share user experience insights** from your domain expertise
+- **Suggest interface improvements** for existing projects
+- **Identify usability issues** and propose solutions
+- **Contribute to planning** by defining user requirements
+
+### Documentation & Communication
+
+- **Improve project documentation** and README files
+- **Create user guides** and tutorials
+- **Write project descriptions** that explain technical concepts clearly
+- **Help with project naming** and messaging
+
+### Testing & Feedback
+
+- **Test applications** and provide detailed feedback
+- **Report bugs** using our issue templates
+- **Suggest improvements** based on real-world usage
+- **Validate project ideas** from a business perspective
 
 ## 📚 Learning and Knowledge Sharing
 
@@ -131,9 +176,19 @@ Use our issue templates to report:
 - Explain your reasoning behind implementation choices
 - Be open to feedback and alternative approaches
 
+### Cross-Functional Collaboration
+
+- **Developers**: Explain technical concepts clearly to non-technical team members
+- **Non-technical contributors**: Share domain expertise and user perspectives
+- **Everyone**: Ask questions and contribute ideas regardless of technical background
+
 ## 🆘 Getting Help
 
-- **Create an issue** for bugs or feature requests
-- **Ask questions** in PR comments or reviews
-- **Document solutions** you find for others
-- **Share resources** that helped you learn
+- **For project ideas**: Create an issue in [project-proposals](../project-proposals)
+- **For code bugs**: Create an issue in the relevant project repository
+- **For questions**: Ask in PR comments, issue discussions, or team channels
+- **For learning**: Document your process and ask for guidance from the team
+
+## 🤝 Our Philosophy
+
+We believe the best projects come from diverse perspectives. Whether you contribute code, ideas, feedback, or domain expertise, your input helps make our projects better. Don't hesitate to contribute just because you're not sure about the technical implementation - that's what the team is for!
