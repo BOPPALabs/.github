@@ -8,7 +8,7 @@ This organization is a tight team working on private and internal projects. If y
 
 **Everyone can contribute - coding skills not required!** If you have an idea for a new project, improvement, or solution:
 
-1. **Visit our [project-proposals repository](../project-proposals)**
+1. **Visit our [Project-Proposals](../Project-Proposals) repository**
 2. **Create a new issue** using the `💭 MVP Proposal` template
 3. **Share your idea** - we'll help with the technical details!
 
@@ -125,7 +125,7 @@ Use our issue templates to report:
 - **⚠️ Bug Reports** - for problems with existing functionality
 - **✨ Feature Requests** - for new capabilities
 
-### For New Project Ideas (in project-proposals repo)
+### For New Project Ideas (in Project-Proposals repo)
 
 - **💭 MVP Proposals** - for new project ideas (anyone can contribute!)
 - **📋 MVP Planning** - for detailed planning of approved proposals
@@ -184,7 +184,7 @@ Use our issue templates to report:
 
 ## 🆘 Getting Help
 
-- **For project ideas**: Create an issue in [project-proposals](../project-proposals)
+- **For project ideas**: Create an issue in [Project-Proposals](../Project-Proposals)
 - **For code bugs**: Create an issue in the relevant project repository
 - **For questions**: Ask in PR comments, issue discussions, or team channels
 - **For learning**: Document your process and ask for guidance from the team
