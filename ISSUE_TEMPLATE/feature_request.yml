@@ -1,0 +1,160 @@
+name: Feature Request
+description: Suggest a new feature or enhancement
+title: '[FEATURE] '
+labels: ['enhancement', 'needs-discussion']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! This helps us understand what would be valuable to build and learn.
+
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: 🚀 Feature Description
+      description: A clear and concise description of the feature you'd like to see implemented.
+      placeholder: Describe the feature you want...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_motivation
+    attributes:
+      label: 💡 Problem/Motivation
+      description: What problem does this feature solve? What use case does it address?
+      placeholder: |
+        - Is this something you've encountered while using the current system?
+        - How would this improve the user experience or development workflow?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: 🎯 Proposed Solution
+      description: Describe your preferred solution in detail
+      placeholder: |
+        - How should this feature work?
+        - What should the user interface look like?
+        - What should the API/functionality include?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternative_solutions
+    attributes:
+      label: 🔀 Alternative Solutions
+      description: Have you considered any alternative approaches? What are the pros/cons?
+      placeholder: Describe any alternative solutions you've considered...
+
+  - type: textarea
+    id: success_criteria
+    attributes:
+      label: 📊 Success Criteria
+      description: How will we know this feature is successful?
+      placeholder: |
+        - What metrics should we track?
+        - What would "done" look like?
+        - How will we measure user adoption/satisfaction?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: technical_complexity
+    attributes:
+      label: 🏗️ Technical Complexity
+      description: How complex do you think this feature would be to implement?
+      options:
+        - Low - Simple implementation
+        - Medium - Moderate complexity
+        - High - Complex implementation
+        - Unknown - Need technical assessment
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation_considerations
+    attributes:
+      label: Implementation Considerations
+      description: Any technical challenges or considerations you can foresee?
+      placeholder: |
+        - Dependencies on other systems or features?
+        - Performance or scalability concerns?
+        - Potential technical hurdles?
+
+  - type: dropdown
+    id: estimated_effort
+    attributes:
+      label: Estimated Effort
+      description: How much work do you think this would take?
+      options:
+        - Small - Few hours to a day
+        - Medium - Few days to a week
+        - Large - Week or more
+        - Unknown - Need estimation
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: business_impact
+    attributes:
+      label: 💼 Business Impact
+      description: How does this align with BOPPA's goals?
+      options:
+        - label: This aligns with our learning goals
+        - label: This would benefit multiple projects
+        - label: This is critical for MVP functionality
+        - label: This is a nice-to-have enhancement
+
+  - type: textarea
+    id: learning_opportunities
+    attributes:
+      label: 📚 Learning Opportunities
+      description: What new technologies or skills would this introduce?
+      placeholder: |
+        - New technologies or skills this would introduce
+        - How this could help the team grow
+        - Interesting technical challenges to explore
+
+  - type: textarea
+    id: mockups_examples
+    attributes:
+      label: 🖼️ Mockups/Examples
+      description: If applicable, add sketches, mockups, or examples from other applications
+      placeholder: Drag and drop images or describe examples...
+
+  - type: checkboxes
+    id: urgency
+    attributes:
+      label: ⏰ Timeline
+      description: When would you like to see this implemented?
+      options:
+        - label: This is urgent/blocking
+        - label: Would be nice to have soon
+        - label: Not time-sensitive
+        - label: Future consideration
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 📋 Additional Context
+      description: Any other context that would be helpful
+      placeholder: |
+        - Links to similar tools/libraries
+        - Relevant documentation or resources
+        - Any other helpful information
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✋ Self-Check
+      description: Please confirm you've completed these steps
+      options:
+        - label: I have searched existing issues to make sure this isn't a duplicate
+          required: true
+        - label: I have clearly explained the problem this feature would solve
+          required: true
+        - label: I have considered the learning and growth aspects
+          required: true
+        - label: I have thought about implementation complexity
+          required: true

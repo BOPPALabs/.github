@@ -22,7 +22,7 @@ We work on a mix of private and public projects — some for the world, some jus
 
 ## 👥 Who We Are
 
-We’re five friends pushing each other to improve as developers, designers, and problem-solvers. No fluff, just progress.
+We’re a group of tinkerers with a shared love of knowledge pushing each other to improve as developers, designers, and problem-solvers. No fluff, just progress.
 
 This isn't a company. It’s a creative alliance.
 
@@ -56,8 +56,4 @@ We’re not looking for external contributors right now — we’re just keeping
 
 https://boppa.net
 
-> _More coming soon._
-
----
-
-<!-- Optional: badges or project links can go here in the future -->
+> _More coming soon. Stay tuned..._

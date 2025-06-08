@@ -1,0 +1,297 @@
+name: MVP Proposal
+description: Propose a new MVP project for BOPPA
+title: '[MVP] '
+labels: ['mvp', 'proposal', 'needs-discussion']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🎯 **MVP Proposal Template**
+
+        This structured template helps ensure MVP ideas are well-thought-out before development begins. Take your time to think through each section!
+
+  - type: input
+    id: project_name
+    attributes:
+      label: Project Name
+      description: What do you want to call this MVP?
+      placeholder: e.g., TaskTracker, CodeSnippetManager, LocalBudgetApp
+    validations:
+      required: true
+
+  - type: textarea
+    id: one_line_description
+    attributes:
+      label: One-Line Description
+      description: Summarize your MVP in one sentence
+      placeholder: A simple task management app for solo developers working on multiple projects
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: 💡 Problem Statement
+      description: What specific problem are you trying to solve?
+      placeholder: |
+        - Who experiences this problem?
+        - How big/common is this problem?
+        - Why hasn't this been solved already?
+    validations:
+      required: true
+
+  - type: textarea
+    id: target_users
+    attributes:
+      label: 👥 Target Users
+      description: Who is this MVP built for?
+      placeholder: |
+        - Primary user persona
+        - User needs and pain points
+        - How will you reach these users for feedback?
+    validations:
+      required: true
+
+  - type: textarea
+    id: value_proposition
+    attributes:
+      label: ✨ Core Value Proposition
+      description: What's the main benefit users will get?
+      placeholder: 'Complete this: "Our MVP helps [target users] [achieve goal] by [unique approach]"'
+    validations:
+      required: true
+
+  - type: textarea
+    id: core_features
+    attributes:
+      label: 🏗️ Must-Have Features (Core MVP)
+      description: List the absolute minimum features needed to deliver value
+      placeholder: |
+        - Feature 1: User can create and manage tasks
+        - Feature 2: User can organize tasks by project
+        - Feature 3: User can mark tasks as complete
+    validations:
+      required: true
+
+  - type: textarea
+    id: nice_to_have_features
+    attributes:
+      label: Nice-to-Have Features (V2+)
+      description: Features that would be great but aren't essential for the initial MVP
+      placeholder: |
+        - Feature A: Time tracking
+        - Feature B: Team collaboration
+        - Feature C: Advanced reporting
+
+  - type: dropdown
+    id: frontend_tech
+    attributes:
+      label: Frontend Technology
+      description: What frontend approach are you considering?
+      options:
+        - React
+        - Vue.js
+        - Vanilla JavaScript
+        - Next.js
+        - Svelte
+        - Other
+        - No frontend (API only)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: backend_tech
+    attributes:
+      label: Backend Technology
+      description: What backend approach are you considering?
+      options:
+        - Node.js/Express
+        - Python/Django
+        - Python/Flask
+        - Python/FastAPI
+        - No backend (frontend only)
+        - Firebase/Supabase
+        - Other
+
+  - type: dropdown
+    id: database_tech
+    attributes:
+      label: Database
+      description: What database are you considering?
+      options:
+        - PostgreSQL
+        - MongoDB
+        - SQLite
+        - MySQL
+        - Firebase Firestore
+        - Local Storage only
+        - No database needed
+        - Other
+
+  - type: textarea
+    id: tech_reasoning
+    attributes:
+      label: Why This Tech Stack?
+      description: Explain your technology choices
+      placeholder: |
+        - Learning goals for the team
+        - Project requirements
+        - Speed of development
+        - Cost considerations
+    validations:
+      required: true
+
+  - type: input
+    id: primary_metric
+    attributes:
+      label: 📊 Primary Success Metric
+      description: What's the most important metric to track success?
+      placeholder: e.g., daily active users, task completion rate, user retention
+    validations:
+      required: true
+
+  - type: textarea
+    id: secondary_metrics
+    attributes:
+      label: Secondary Success Metrics
+      description: What other metrics will help measure success?
+      placeholder: |
+        - User engagement time
+        - Feature adoption rate
+        - User feedback scores
+        - Technical performance metrics
+
+  - type: input
+    id: week_1_target
+    attributes:
+      label: Week 1 Target
+      description: What's your goal for the first week?
+      placeholder: e.g., 5 beta users, core features working, 10 tasks created
+
+  - type: input
+    id: month_1_target
+    attributes:
+      label: Month 1 Target
+      description: What's your goal for the first month?
+      placeholder: e.g., 25 active users, user feedback collected, 2 feature iterations
+
+  - type: dropdown
+    id: estimated_dev_time
+    attributes:
+      label: ⏰ Estimated MVP Development Time
+      description: How long do you think this will take to build?
+      options:
+        - 1-2 weeks
+        - 3-4 weeks
+        - 1-2 months
+        - 2-3 months
+        - 3+ months
+        - Unknown - needs estimation
+    validations:
+      required: true
+
+  - type: dropdown
+    id: time_commitment
+    attributes:
+      label: Time Commitment
+      description: How much time can you dedicate per week?
+      options:
+        - 5-10 hours/week
+        - 10-15 hours/week
+        - 15-20 hours/week
+        - 20+ hours/week
+        - Variable/flexible
+    validations:
+      required: true
+
+  - type: input
+    id: estimated_monthly_cost
+    attributes:
+      label: 💰 Estimated Monthly Costs
+      description: What will this cost to run monthly?
+      placeholder: e.g., $5 (hosting) + $0 (free tier APIs) = $5/month
+
+  - type: textarea
+    id: learning_goals
+    attributes:
+      label: 🎓 Learning Goals
+      description: What will the team learn from building this MVP?
+      placeholder: |
+        - New technologies or frameworks
+        - Business/market insights
+        - Development processes
+        - Design/UX principles
+    validations:
+      required: true
+
+  - type: textarea
+    id: similar_solutions
+    attributes:
+      label: 🔍 Similar Solutions
+      description: What competitors or similar solutions exist?
+      placeholder: |
+        - Competitor 1: What they do well/poorly
+        - Competitor 2: What they do well/poorly
+        - How our approach will be different/better
+
+  - type: textarea
+    id: launch_strategy
+    attributes:
+      label: 🚀 Go-to-Market Strategy
+      description: How will you launch and get initial users?
+      placeholder: |
+        - Launch platforms/channels
+        - Marketing approach
+        - Community engagement
+        - Feedback collection plan
+
+  - type: textarea
+    id: potential_risks
+    attributes:
+      label: ⚠️ Potential Risks & Mitigation
+      description: What could go wrong and how will you handle it?
+      placeholder: |
+        - Technical challenges: [risk] → [mitigation plan]
+        - Market risks: [risk] → [mitigation plan]
+        - Resource risks: [risk] → [mitigation plan]
+
+  - type: textarea
+    id: post_mvp_roadmap
+    attributes:
+      label: 📈 Post-MVP Roadmap
+      description: If the MVP is successful, what's next?
+      placeholder: |
+        - Key features to add
+        - Scaling considerations
+        - Potential pivot points
+        - Long-term vision
+
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: ❓ Open Questions
+      description: What still needs to be figured out?
+      placeholder: |
+        - Technical decisions to make
+        - User research to conduct
+        - Business model questions
+        - Resource allocation decisions
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✋ Self-Check
+      description: Please confirm you've completed these steps
+      options:
+        - label: I have clearly defined the problem and target users
+          required: true
+        - label: The MVP scope is realistic for our timeline and resources
+          required: true
+        - label: I have identified specific learning goals
+          required: true
+        - label: I have researched similar solutions
+          required: true
+        - label: The success metrics are measurable and realistic
+          required: true
+        - label: I have considered potential risks and mitigation strategies
+          required: true

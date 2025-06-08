@@ -10,7 +10,6 @@
 - [ ] 📚 Documentation update
 - [ ] 🎨 Code style/refactoring (no functional changes)
 - [ ] 🧪 Test additions or updates
-- [ ] 🚀 MVP development
 - [ ] 🔧 Tooling/infrastructure changes
 
 ## 🔗 Related Issues (if applicable)
@@ -117,12 +116,6 @@
 
 ## 🤝 Review Guidance
 
-### Focus Areas for Review:
-
-- [Specific areas where you'd like extra attention]
-- [New patterns or approaches used]
-- [Performance-critical sections]
-
 ### Questions for Reviewer:
 
 - [Specific questions about implementation choices]
@@ -133,10 +126,10 @@
 
 ## ✋ Pre-Review Checklist
 
-- [ ] All tests are passing locally
-- [ ] Code has been formatted (Prettier/Black)
 - [ ] Self-review completed
 - [ ] Related documentation updated
+- [ ] All tests are passing locally
+- [ ] Code has been formatted (Prettier/Black)
 - [ ] Screenshots/demos added for UI changes
 - [ ] Breaking changes clearly documented
 

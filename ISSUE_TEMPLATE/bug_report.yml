@@ -1,0 +1,136 @@
+name: Bug Report
+description: Report a bug to help us improve
+title: '[BUG] '
+labels: ['bug', 'needs-triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! This helps us improve our projects and learn from issues.
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: 🐛 Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug you encountered...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: 🔄 Steps to Reproduce
+      description: Tell us how to reproduce this behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: ✅ Expected Behavior
+      description: A clear description of what you expected to happen.
+      placeholder: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: ❌ Actual Behavior
+      description: A clear description of what actually happened.
+      placeholder: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: Drag and drop or paste screenshots here...
+
+  - type: dropdown
+    id: operating_system
+    attributes:
+      label: Operating System
+      description: What OS are you using?
+      options:
+        - Windows 10
+        - Windows 11
+        - macOS
+        - Linux
+        - iOS
+        - Android
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browser & Version
+      description: What browser and version are you using?
+      placeholder: e.g., Chrome 120, Safari 17, Firefox 121
+
+  - type: input
+    id: project_version
+    attributes:
+      label: Project Version
+      description: What version of our project?
+      placeholder: e.g., v1.2.0, commit hash, or branch name
+
+  - type: textarea
+    id: development_environment
+    attributes:
+      label: Development Environment (if applicable)
+      description: For development-related bugs, include relevant versions
+      placeholder: |
+        Node.js version: v18.17.0
+        Python version: 3.11.0
+        Package manager: npm 9.6.7
+      render: text
+
+  - type: checkboxes
+    id: impact_assessment
+    attributes:
+      label: Impact Assessment
+      options:
+        - label: This is blocking my work
+        - label: This affects MVP functionality
+        - label: I have found a workaround
+
+  - type: textarea
+    id: error_logs
+    attributes:
+      label: 🔍 Error Logs
+      description: Paste any relevant error messages, console logs, or stack traces
+      render: shell
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 📋 Additional Context
+      description: Any other context about the problem
+      placeholder: |
+        - Links to related issues or PRs
+        - Workarounds you've found
+        - Any other relevant information
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✋ Self-Check
+      description: Please confirm you've completed these steps
+      options:
+        - label: I have searched existing issues to make sure this isn't a duplicate
+          required: true
+        - label: I have provided all the requested information above
+          required: true
+        - label: I have tested this on the latest version when possible
+          required: false
