@@ -13,7 +13,7 @@ This organization is a tight team working on private and internal projects. If y
 If you have an idea for a completely new project, improvement, or solution:
 
 1. **Visit our [Project-Proposals](https://github.com/BOPPALabs/Project-Proposals) repository**
-2. **Create a new issue** using the `💭 MVP Proposal` template
+2. **Create a new issue** using the `📝 MVP Proposal` template
 3. **Share your idea** - the rest of the team will help with the technical details!
 
 ### For Existing Projects
@@ -141,8 +141,8 @@ Use our issue templates to report:
 
 ### For New Project Ideas (in Project-Proposals repo)
 
-- **💭 MVP Proposals** - for new project ideas (anyone can contribute!)
-- **📋 MVP Planning** - for detailed planning of approved proposals
+- **📝 MVP Proposals** - for new project ideas (anyone can contribute!)
+- **🧠 MVP Planning** - for detailed planning of approved proposals
 
 ## 🎯 Contributing Without Coding
 
