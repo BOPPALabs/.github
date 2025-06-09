@@ -8,10 +8,52 @@ We’re a team of multifaceted minds building tools, apps, and experiments with 
 
 ---
 
-<p align="center">
-  <a href="https://www.figma.com/@boppa" target="_blank">
-    <img src="https://img.shields.io/badge/figma-F24E1E?style=flat&logo=figma&logoColor=ffffff" alt="figma" /></a>
-</p>
+## 🔗 External Resources & Integrations
+
+[![Figma](https://img.shields.io/badge/Figma-BOPPA-000?logo=figma)](https://www.figma.com/@boppa)
+
+---
+
+## 🏗️ Active Projects
+
+<div align="center">
+
+<table border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+
+<td width="50%" valign="top">
+
+---
+
+### <a href="https://github.com/BOPPALabs/BOPPAnet"><img src="https://boppa.net/img/boppa_icon.png" width="37" height="32" alt="BOPPA Icon" align="absmiddle" />&nbsp;BOPPAnet</a>
+
+_A modern, interactive website for the BOPPA community._
+
+<br>
+
+🌐 **Public** • <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="16" height="16" alt="TypeScript" align=" absmiddle" />&nbsp;**TypeScript** • 🔥 **Active**
+
+---
+
+</td>
+</tr>
+
+</table>
+
+### 💡 **Have a new project idea?**
+
+<a href="https://github.com/BOPPALabs/Project-Proposals/issues/new?template=mvp_proposal.yml">
+  <img src="https://img.shields.io/badge/%20Submit%20Project%20Proposal-Click%20Here-darkgreen?style=for-the-badge&logo=github&logoColor=white" alt="Submit Project Proposal" />
+</a>
+
+<br>
+
+_Use our structured issue templates to pitch new projects and ideas_
+
+</div>
+
+---
 
 ## 🔧 What We Do
 
